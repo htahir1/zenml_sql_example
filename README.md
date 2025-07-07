@@ -171,6 +171,19 @@ python setup_secrets.py
 - **Performance Analysis**: Query optimization recommendations
 - **Artifact Tracking**: Full query lineage and versioning
 
+### ZenML Dashboard Visualization
+
+The advanced pipeline with custom materializer provides rich visualizations in the ZenML dashboard:
+
+![SQL Pipeline DAG](assets/sql_screenshot_dag.png)
+
+This shows:
+- **Pipeline DAG**: Visual representation of SQL query execution flow
+- **SQL Query Visualization**: Interactive display of your SQL queries with syntax highlighting
+- **Execution Results**: Status, execution time, and rows affected
+- **Query Metadata**: Descriptions, parameters, and performance metrics
+- **Result Preview**: Sample data from query execution
+
 ## 📊 Example SQL Scripts
 
 The simple pipeline includes examples for:
